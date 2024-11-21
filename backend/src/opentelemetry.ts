@@ -11,7 +11,7 @@ const traceExporter = new OTLPTraceExporter({
 
 const sdk = new NodeSDK({
   resource: new Resource({
-    [ATTR_SERVICE_NAME]: 'reallysick-nest',
+    [ATTR_SERVICE_NAME]: 'test-nest',
   }),
   traceExporter,
   instrumentations: [
